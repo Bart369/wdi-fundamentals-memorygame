@@ -1,0 +1,118 @@
+
+
+body {
+	text-align: center;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+}
+
+
+header{
+	background-color: #f15b31;
+	padding: 30px 20px;
+}
+
+#game_name {
+	font-family: RALEWAY;
+	color: #fff;
+	letter-spacing: 1px;
+	font-weight: 400px;
+	font-size: 45px;
+	margin: 0;
+}
+
+nav {
+	font-family: RALEWAY;
+	letter-spacing: 1px;
+	font-weight: 600px;
+	font-size: 18px;
+	background-color: #00A6b3;
+	padding: 20px 0;
+}
+
+nav a {
+	color: #fff;
+	margin: 0 20px;
+	border-bottom: 2px solid transparent;
+}
+
+main{
+	width: 850px;
+	margin: 35px auto;
+}
+
+img{
+	margin: 40px 8px;
+}
+
+.section_name{
+	font-family: RALEWAY;
+	color: #0d2c40;
+	letter-spacing: 1px;
+	font-weight: 600px;
+	font-size: 20px;
+}
+
+.description{
+	font-family: DROID SERIF;
+	line-height: 26px
+	font-size: 18px;
+}
+
+footer{
+	padding: 0 20px;
+	background-color: #0D2c40;
+	color: white;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 500;
+}
+
+.copyright{
+	font-family: RALEWAY;
+	float: left;
+}
+
+.message{
+	float: right;
+}
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
+}
+
+.name {
+	color: #f15b31;
+	font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
