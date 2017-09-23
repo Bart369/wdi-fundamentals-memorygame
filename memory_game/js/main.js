@@ -50,13 +50,22 @@ var instructions = document.getElementById('instructions').addEventListener('cli
 
 var cardsInPlay = [];
 
+var winCounts = 0;
+var loseCounts = 0;
+
 var checkForMatch = function(){	
 	if (cardsInPlay.length === 2){
 		if (cardsInPlay[0] === cardsInPlay[1]){
-			alert("You found a match!");	
+			alert("You found a match!");
+			winCounts += 1;
+			var wins = document.getElementById('wins');
+			wins.innerHTML = winCounts;	
 		}
 		else {
 			alert("Sorry, please try again.")
+			loseCounts += 1;
+			var losses = document.getElementById('losses');
+			losses.innerHTML = loseCounts;
 		}
 	}
 }

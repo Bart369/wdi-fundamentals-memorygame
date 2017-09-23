@@ -54,6 +54,14 @@ h2{
 	color: white;
 }
 
+#wins{
+	color: yellow;
+}
+
+#losses{
+	color: yellow;
+}
+
 img{
 	margin: 40px 8px;
 }
