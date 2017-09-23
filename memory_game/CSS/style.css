@@ -1,6 +1,7 @@
 
 
 body {
+	background-color: #cc0099;
 	text-align: center;
 	margin: 0;
 }
@@ -46,6 +47,11 @@ nav a {
 main{
 	width: 850px;
 	margin: 35px auto;
+	color: white;
+}
+
+h2{
+	color: white;
 }
 
 img{
@@ -54,7 +60,7 @@ img{
 
 .section_name{
 	font-family: RALEWAY;
-	color: #0d2c40;
+	color: white;
 	letter-spacing: 1px;
 	font-weight: 600px;
 	font-size: 20px;
@@ -73,6 +79,11 @@ footer{
 	font-size: 14px;
 	letter-spacing: .08em;
 	font-weight: 500;
+	/* Use with with right, bottom and left to place exactly where you want it*/
+	position: absolute; 
+  	right: 0;
+  	bottom: 0;
+ 	left: 0;
 }
 
 .copyright{
